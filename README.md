@@ -2,10 +2,11 @@
 
 This is my first Github repository.<br>
 Author - Kaushal Satam
-
+<br>
 git configuration:
-
+<br>
 git config --global user.name "<-username->"
+<br>
 git config --global user.email "<-email->"
 
 <!-- to check configuration -->
@@ -133,6 +134,7 @@ git pull origin main
 <!-- case1: staged changes -->
 
 git reset <-filename->
+<br>
 git reset
 
 <!-- case2: commited changes(for one commit) -->
@@ -143,6 +145,7 @@ git reset HEAD~1
 <!-- hash is unique value given to a particular commit -->
 
 git reset <-commithash->
+<br>
 git reset --hard <-commithash->
 
 <!-- to see older commit changes -->
