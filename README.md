@@ -84,3 +84,64 @@ git branch
 <!-- to rename a branch -->
 
 git branch -M <-newname->
+
+<!-- new branch -->
+
+git checkout -b <-branchname->
+
+<!-- delete branch -->
+
+git checkout -d <-branchname->
+
+<!-- change branch -->
+
+git checkout <-branchname->
+
+<!-- merge branch -->
+<!-- Way1 -->
+<!-- to compare commits, branches, files & more -->
+
+git diff <-branchname->
+
+<!-- merge -->
+
+git merge branch
+
+<!-- Way 2 -->
+
+<!-- by GitHub
+Create a pull request.
+Pull Request: It lets you tell others about changes you've pushed to a branch in a repository on GitHub. -->
+
+<!-- pull command: used to fetch and download content from a remote repo and immediately update the local repo to match that content -->
+
+git pull origin main
+
+<!-- Resolving merge confict -->
+<!-- An event that takes place when Git is unable to automatically resolve differences in code between two commits -->
+
+<!-- undoing changes -->
+<!-- case1: staged changes -->
+
+git reset <-filename->
+git reset
+
+<!-- case2: commited changes(for one commit) -->
+
+git reset HEAD~1
+
+<!-- case3: commited changes(for many commits) -->
+<!-- hash is unique value given to a particular commit -->
+
+git reset <-commithash->
+git reset --hard <-commithash->
+
+<!-- to see older commit changes -->
+
+git log
+
+<!-- fork -->
+<!-- A fork is a new repository that shares code and visibility settings with the original "upstream" -->
+<!-- fork is a rough copy of a repository -->
+
+<!-- You can use fork to copy others project make changes and then create pull request to merge changes with original project/repo-->
