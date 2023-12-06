@@ -13,9 +13,17 @@ git clone <-url->
 
 git --version
 
-<!-- change directory -->
+<!-- change directory to child folder -->
 
 cd <-childfoldername->
+
+<!-- change directory to parent folder -->
+
+cd ..
+
+<!-- create new folder -->
+
+mkdir <-foldername->
 
 <!-- list contents of the folder -->
 
