@@ -42,3 +42,7 @@ git add .
 <!-- commit -->
 
 git commit -m "commit change message"
+
+<!-- finally upload local repo content to remote repo -->
+
+git push origin main
