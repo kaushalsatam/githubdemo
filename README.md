@@ -54,3 +54,33 @@ git commit -m "commit change message"
 <!-- finally upload local repo content to remote repo -->
 
 git push origin main
+
+<!-- set upstream if you want to save your progress on same project/repo-->
+
+git push -u origin main
+
+<!-- next time you dont have type whole command, just type -->
+
+git push
+
+<!-- create new git repo -->
+
+git init
+
+<!-- command to run before pushing the repository on github to set remote repository -->
+<!-- but firstly you have to create dummy repository on github to get the link and link
+    the remote and local repositories together -->
+
+git remote add origin <-link->
+
+<!-- to check the remote repo -->
+
+git remote -v
+
+<!-- to check the current branch -->
+
+git branch
+
+<!-- to rename a branch -->
+
+git branch -M <-newname->
