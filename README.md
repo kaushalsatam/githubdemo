@@ -2,8 +2,9 @@
 
 This is my first Github repository.<br>
 Author - Kaushal Satam
-<br>
-git configuration:
+
+# git configuration:
+
 <br>
 git config --global user.name "<-username->"
 <br>
@@ -13,7 +14,7 @@ git config --global user.email "<-email->"
 
 git config --list
 
-Some git commands:
+# Some git commands:
 
 <!-- cloning github repository/project -->
 
