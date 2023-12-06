@@ -3,6 +3,15 @@
 This is my first Github repository.<br>
 Author - Kaushal Satam
 
+git configuration:
+
+git config --global user.name "<-username->"
+git config --global user.email "<-email->"
+
+<!-- to check configuration -->
+
+git config --list
+
 Some git commands:
 
 <!-- cloning github repository/project -->
